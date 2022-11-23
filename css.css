@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+#esq{
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(24, 2, 33);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#mo{
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+#mo > h1{
+    color: rgb(28, 213, 255);
+    font-weight: 800;
+    
+    
+    
+}
+#dir{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 2, 33);
+}
+#cartao{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    background-color: rgba(80, 15, 110, 0.639);
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 12pt;
+    width: 75%;
+    padding: 10px 5px;
+    color: gray;
+    box-shadow: 10px 10px 149px 39px rgba(255,0,255,0.24);
+
+}
+label{
+    color: gray;
+    justify-content: end;
+    margin-bottom: 10px;
+    
+}
+#cartao > h1{
+    color: rgb(28, 213, 255);
+    font-weight: 800;
+}
+::placeholder{
+    color: gray
+}
+#bot{
+    width: 75%;
+    border-radius: 10px;
+    padding: 16px 0;
+    cursor: pointer;
+    margin: 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: rgb(28, 213, 255);
+    box-shadow: 15px 6px 39px 14px rgba(92,212,242,0.28);
+}
